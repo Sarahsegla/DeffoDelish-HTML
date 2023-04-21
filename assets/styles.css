@@ -1,7 +1,12 @@
 .nav-link {
-    color: pink;
+    color: black;
 }
 
 .navbar {
     box-shadow: 0px 5px 5px -6px rgba(0,0,0,.5);
+}
+
+#navbarTogglerDemo01 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
 }
