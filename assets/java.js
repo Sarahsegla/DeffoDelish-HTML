@@ -52,7 +52,7 @@ const settings = {
 	method: 'GET',
 	headers: {
 		'content-type': 'application/octet-stream',
-		'X-RapidAPI-Key': '95a7a633e8msh548a21e77e1a772p123091jsnd67b5e271796',
+		'X-RapidAPI-Key': ' ',
 		'X-RapidAPI-Host': 'the-fork-the-spoon.p.rapidapi.com'
 	}
 };
