@@ -1,10 +1,3 @@
-// const prev = document.getElementsByClassName('prev');
-// const next = document.getElementsByClassName('next');
-
-// prev.addEventListener("click", function(event) {
-
-// l/\
-// })
 
 // starting from 0. array of images that will be loope through
 var i = 0;
@@ -46,3 +39,25 @@ function imgChange() {
 
 //want the images to run when the page loads
 window.onload = imgChange;
+
+
+
+// api
+
+
+const settings = {
+	async: true,
+	crossDomain: true,
+	url: 'https://the-fork-the-spoon.p.rapidapi.com/sale-type-menu/list?id_restaurant=522995&locale=en_US',
+	method: 'GET',
+	headers: {
+		'content-type': 'application/octet-stream',
+		'X-RapidAPI-Key': '95a7a633e8msh548a21e77e1a772p123091jsnd67b5e271796',
+		'X-RapidAPI-Host': 'the-fork-the-spoon.p.rapidapi.com'
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	// console.log(response);
+    console.log(response.data);
+});
